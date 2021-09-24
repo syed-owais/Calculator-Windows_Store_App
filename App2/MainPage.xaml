@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="App2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Azure" Margin="0,1,0,-1">
+        <StackPanel Margin="500,50,446,50" Height="600" Width="400" Background="#0c0c0c" >
+
+            <TextBox x:Name="txtfld" FontSize="40" PlaceholderText="0" Margin="0,60,0,0" Foreground="White" Background="#0c0c0c" BorderThickness="0" TextAlignment="Right" Height="109"  />
+            <TextBlock x:Name="lblvalue" Margin="0,-300,5,-40" FontSize="20" Foreground="LightBlue" TextWrapping="Wrap" TextAlignment="Right"  Height="39" RenderTransformOrigin="0.504,0.556"/>
+            <StackPanel  Height="421" Margin="-20,10,0,10">
+                <Button x:Name="btnclear" Content="C" Background="#252525" BorderThickness="0"  FontSize="30" Margin="20,1,0,-20" Height="70"  Width="200" Click="btnclear_Click"/>
+                <Button x:Name="btncc" Content="CC" Background="#252525" BorderThickness="0"  FontSize="30" Margin="220,-70,0,-39" Height="70"  Width="200" Click="btncc_Click"/>
+
+                <Button x:Name="btnnumon" Content="Num" Background="#0066a1" BorderThickness="0"   FontSize="30" Margin="20,21,0,0" Height="70"  Width="100" Click="btnnumon_Click"/>
+                <Button x:Name="btnnumoff" Content="Num" Background="OrangeRed"  BorderThickness="0"  FontSize="30" Margin="20,-71,0,0" Height="70"  Width="100" Click="btnnumof_Click"/>
+
+                <Button x:Name="div" Content="/" Background="#252525" BorderThickness="0"   FontSize="40" Margin="120,-70,0,0" Height="70" Width="100" Click="btnoperation"/>
+                <Button x:Name="multi" Content="*" Background="#252525" BorderThickness="0"   FontSize="40" Margin="220,-70,0,0" Height="70" Width="100" Click="btnoperation"/>
+                <Button x:Name="sub" Content="-" Background="#252525" BorderThickness="0"   FontSize="40" Margin="320,-70,0,0" Height="70" Width="100" Click="btnoperation"/>
+
+                <Button x:Name="_7" Content="7" Background="#323232" BorderThickness="0" FontSize="30" Margin="20,0,0,0" Height="70"  Width="100" Click="btnaction"/>
+                <Button x:Name="_8" Content="8" Background="#323232" BorderThickness="0"  FontSize="40" Margin="120,-70,0,0" Height="70" Width="100" Click="btnaction"/>
+                <Button x:Name="_9" Content="9"  Background="#323232" BorderThickness="0"  FontSize="40" Margin="220,-70,0,0" Height="70" Width="100" Click="btnaction"/>
+                <Button x:Name="add" Content="+"  Background="#252525"  BorderThickness="0" FontSize="40" Margin="320,-70,0,0" Height="140" Width="100" Click="btnoperation"/>
+
+                <Button x:Name="_4" Content="4" FontSize="30"  Background="#323232" BorderThickness="0"  Margin="20,-70,0,0" Height="70"  Width="100" Click="btnaction" />
+                <Button x:Name="_5" Content="5" FontSize="40"  Background="#323232" BorderThickness="0" Margin="120,-70,0,0" Height="70" Width="100" Click="btnaction"/>
+                <Button x:Name="_6" Content="6" FontSize="40" Background="#323232" BorderThickness="0"  Margin="220,-70,0,0" Height="70" Width="100" Click="btnaction"/>
+                <Button x:Name="_1" Content="1" FontSize="30" Background="#323232" BorderThickness="0"  Margin="20,0,0,0" Height="70"  Width="100" Click="btnaction"/>
+
+                <Button x:Name="_2" Content="2" FontSize="40" Background="#323232" BorderThickness="0"  Margin="120,-70,0,0" Height="70" Width="100" Click="btnaction"/>
+                <Button x:Name="_3" Content="3" FontSize="40" Background="#323232" BorderThickness="0"  Margin="220,-70,0,0" Height="70" Width="100" Click="btnaction"/>
+                <Button x:Name="equal"  Content="=" Background="#252525"  BorderThickness="0" FontSize="40" Margin="320,-70,0,0" Height="140" Width="100" Click="btnequal"/>
+
+                <Button x:Name="_0" Content="0" Background="#323232" BorderThickness="0"  FontSize="30" Margin="20,-70,0,0" Height="70"  Width="200" Click="btnaction"/>
+                <Button x:Name="point" Content="." Background="#323232" BorderThickness="0"  FontSize="40" Margin="220,-70,0,0" Height="70" Width="100" Click="btnaction"/>
+            </StackPanel>
+
+
+
+
+
+
+        </StackPanel>
+    </Grid>
+</Page>

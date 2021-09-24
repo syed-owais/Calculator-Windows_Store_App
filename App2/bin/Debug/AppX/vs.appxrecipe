@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-SG5FF3H</Machine>
+    <WindowsUser>Sarfaraz</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>bb35468c-9cbe-4620-9168-afd62f650f5c</PackageIdentityName>
+    <RegisteredManifestChecksum>91A3D3FC95A97228BE6A7601250B7868270715D2646E75A2F9D62547EAF241C4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>bb35468c-9cbe-4620-9168-afd62f650f5c_1.0.0.0_neutral__hpzyse6g3z8v4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>bb35468c-9cbe-4620-9168-afd62f650f5c_hpzyse6g3z8v4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>bb35468c-9cbe-4620-9168-afd62f650f5c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=syedo</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Sarfaraz\Dropbox\Calculator\App2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-25T05:32:16.000</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Sarfaraz\Dropbox\Calculator\App2\bin\Debug\App2.exe">
+      <PackagePath>App2.exe</PackagePath>
+      <Modified>2017-04-17T14:45:48.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarfaraz\Dropbox\Calculator\App2\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T14:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarfaraz\Dropbox\Calculator\App2\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T14:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarfaraz\Dropbox\Calculator\App2\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T14:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarfaraz\Dropbox\Calculator\App2\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T14:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarfaraz\Dropbox\Calculator\App2\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2017-03-25T05:28:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarfaraz\Dropbox\Calculator\App2\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2017-04-17T14:45:48.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sarfaraz\Dropbox\Calculator\App2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2017-03-25T05:32:16.000</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
